@@ -1,0 +1,12 @@
+.logo-article {
+  width: 250px;
+  height: 220px;
+  margin: 30px;
+}
+
+.video {
+  height: 400px;
+  width: 800px;
+  display: flex;
+  margin: 20px;
+}

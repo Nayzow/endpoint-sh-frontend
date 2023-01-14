@@ -1,0 +1,9 @@
+<div [@technologiesAnimation]="technologies.length">
+  <div class="technologies">
+    <a [routerLink]="['/' + technologiesType + '/' + technology.name] " class="technology"
+       *ngFor="let technology of technologies">
+      <h2>{{ technology.name }}</h2>
+      <img src="{{ technology.image }}" width="200" height="200">
+    </a>
+  </div>
+</div>

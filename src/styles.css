@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #1E293B;
+  color: white;
+}
+
+/* Headings */
+h1 {
+  text-shadow: 1px 1px lightgrey;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 30px 30px 30px;
+}
+
+h2 {
+
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 25px 25px 25px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 20px 20px 1rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.25rem;
+  margin: 40px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #cc3277;
+}
+
+/* Code Blocks */
+code {
+
+}
+
+pre {
+  display: flex;
+  width: 50%;
+  background-color: white;
+  color: #cc327f;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+table {
+
+}
+
+.logo {
+  transition: transform ease-in-out 180ms;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+}
+
+.logo:hover {
+  transform: rotateZ(-17deg) scale(1.05);
+}

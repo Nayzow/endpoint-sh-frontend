@@ -1,0 +1,45 @@
+:host .technologies {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+:host .technology {
+  color: white;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 2.8rem;
+  text-shadow: 3px 2px #000;
+  background-color: #334155;
+  border-radius: 99999px;
+  width: 285px;
+  height: 285px;
+  box-shadow: 0 0 14px 0 #000000;
+  transform: translateY(1.5em);
+  transition: transform ease-in-out 200ms;
+}
+
+:host .technology:hover {
+  color: #334155;
+  background-color: lightgrey;
+  transform: scale(1.01);
+  text-shadow: white;
+  box-shadow: 0 0 14px 0 #000000;
+}
+
+:host .technology > h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+
+:host .technology > img {
+  height: 138px;
+}

@@ -1,0 +1,8 @@
+<div *ngFor="let article of articles">
+  <h1>{{article.technology.name}}</h1>
+  <img class="logo-article" src="{{article.technology.image}}">
+  <h2>{{article.name}}</h2>
+  <div [innerHTML]="article.content"></div>
+<!--  <iframe class="video" src="https://www.youtube.com/embed/caXHwYC3tq8" allowfullscreen></iframe>-->
+  <iframe class="video" src="https://www.youtube.com/embed/{{article.video}}" allowfullscreen></iframe>
+</div>

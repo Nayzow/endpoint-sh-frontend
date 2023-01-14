@@ -1,0 +1,13 @@
+.presentation {
+  display: flex;
+  flex-direction: row;
+  margin: 10% 30% 10% 10%;
+}
+
+.presentation-title {
+
+}
+
+.logo-presentation {
+  margin-right: 30%;
+}
