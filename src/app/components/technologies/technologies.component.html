@@ -1,4 +1,11 @@
-<div [@technologiesAnimation]="technologies.length">
+<div *ngIf="isLoading">
+  <div class="loading">
+    <div class="spinner"></div>
+    <div>Chargement...</div>
+  </div>
+</div>
+
+<div [@technologiesAnimation]="technologies.length" *ngIf="!isLoading">
   <div class="technologies">
     <a [routerLink]="['/' + technologiesType + '/' + technology.name] " class="technology"
        *ngFor="let technology of technologies">

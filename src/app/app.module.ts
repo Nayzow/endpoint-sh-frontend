@@ -9,6 +9,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {HomeComponent} from "./views/home/home.component";
 import {NavbarComponent} from "./components/navbar/navbar.component";
 import {FooterComponent} from "./components/footer/footer.component";
+// import {LoadingComponent} from "./components/loading/loading.component";
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -21,6 +22,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
+    // LoadingComponent,
   ],
   imports: [
     BrowserModule,
