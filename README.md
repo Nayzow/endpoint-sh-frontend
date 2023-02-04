@@ -14,13 +14,11 @@ L'application web est réalisée avec Angular et le langage TypeScript. Elle com
 
 Les routes de l'application sont définies dans le fichier app-routing.module.ts. Les routes disponibles sont :
 
-```css
-{ path: '', component: HomeComponent },
-{ path: 'articles', component: TechnologiesComponent },
-{ path: 'articles/:technology', component: ArticlesComponent },
-{ path: 'commands', component: TechnologiesComponent },
-{ path: 'commands/:technology', component: CommandsComponent },
-{ path: '**', component: HomeComponent },
+```
+/articles -> voir toutes les technologies sur lesquels des articles ont étés écrits.
+/articles/technology -> voir touts les articles liés à une technologie.
+/commands -> voir toutes les technologies sur lesquels des commandes ont étés répertoriées.
+/commands/technology -> voir toutes les commandes répértoriées sur une technologie.
 ```
 
 ## Installation classique
