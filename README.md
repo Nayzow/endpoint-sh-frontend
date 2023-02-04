@@ -43,8 +43,6 @@ npm install
 npm start
 ```
 
-L'application devrait maintenant être accessible à l'adresse http://localhost:4200/
-
 ## Installation avec Docker
 
 Assurez-vous d'avoir Docker installé sur votre ordinateur.
