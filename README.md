@@ -1,4 +1,4 @@
-# Endpoint.sh Frontend
+_# Endpoint.sh Frontend
 
 Frontend de l'API DocumentationApi disponible sur mon github : https://github.com/Nayzow/DocumentationApi
 L'application web est réalisée avec Angular et le langage TypeScript. Elle comporte plusieurs pages affichant des articles écris par mes soins et des vidéos sur diverses technologies.
@@ -18,7 +18,7 @@ Les routes de l'application sont définies dans le fichier app-routing.module.ts
 /articles -> voir toutes les technologies sur lesquels des articles ont étés écrits.
 /articles/technology -> voir touts les articles liés à une technologie.
 /commands -> voir toutes les technologies sur lesquels des commandes ont étés répertoriées.
-/commands/technology -> voir toutes les commandes répértoriées sur une technologie.
+/commands/{technology} -> voir toutes les commandes répértoriées sur une technologie.
 ```
 
 ## Installation classique
@@ -58,13 +58,13 @@ git clone https://github.com/Nayzow/DocumentationFrontEnd
 2. À la racine du projet, Construisez l'image Docker à partir du fichier Dockerfile en utilisant la commande 
 
 ```bash
-docker build -t <image_name> .
+docker build -t documentation-api .
 ```
 
 3. Exécutez le conteneur en utilisant la commande 
 
 ```bash
-docker run -p 4200:4200 <image_name>
+docker run --name documentation-api -p 80:80 -d documentation-api
 ```
 
-L'application devrait maintenant être accessible à l'adresse http://localhost:4200/
+L'application devrait maintenant être accessible à l'adresse http://localhost:80/ à l'aide d'un serveur nginx.
