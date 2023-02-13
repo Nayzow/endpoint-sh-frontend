@@ -6,8 +6,11 @@ L'application web est réalisée avec Angular et le langage TypeScript. Elle com
 ## Screenshots
 
 ![img.png](resources%2Fimages%2Fscreenshots%2Fimg.png)
+
 ![img_1.png](resources%2Fimages%2Fscreenshots%2Fimg_1.png)
+
 ![img_2.png](resources%2Fimages%2Fscreenshots%2Fimg_2.png)
+
 ![img_3.png](resources%2Fimages%2Fscreenshots%2Fimg_3.png)
 
 ## Routes de l'application
@@ -15,29 +18,38 @@ L'application web est réalisée avec Angular et le langage TypeScript. Elle com
 Les routes de l'application sont définies dans le fichier app-routing.module.ts. Les routes disponibles sont :
 
 ```
-/articles -> voir toutes les technologies sur lesquels des articles ont étés écrits.
-/articles/technology -> voir touts les articles liés à une technologie.
-/commands -> voir toutes les technologies sur lesquels des commandes ont étés répertoriées.
-/commands/{technology} -> voir toutes les commandes répértoriées sur une technologie.
+/articles : voir toutes les technologies sur lesquels des articles ont étés écrits.
+```
+
+```
+/articles/technology : voir touts les articles liés à une technologie.
+```
+
+```
+/commands : voir toutes les technologies sur lesquels des commandes ont étés répertoriées.
+```
+
+```
+/commands/{technology} : voir toutes les commandes répértoriées sur une technologie.
 ```
 
 ## Installation classique
 
 Assurez-vous d'avoir Node.js et npm installés sur votre ordinateur. Vous pouvez vérifier leur installation en ouvrant une invite de commande et en tapant node -v et npm -v.
 
-1. Clonez le dépôt du projet en utilisant la commande 
+#### 1. Clonez le dépôt du projet en utilisant la commande 
 
 ```bash
 git clone https://github.com/Nayzow/DocumentationFrontEnd
 ```
 
-2. À la racine du projet, installez les dépendances en utilisant la commande 
+#### 2. À la racine du projet, installez les dépendances en utilisant la commande 
 
 ```bash
 npm install
 ```
 
-3. Démarrez l'application en utilisant la commande 
+#### 3. Démarrez l'application en utilisant la commande 
 
 ```bash
 npm start
@@ -47,19 +59,19 @@ npm start
 
 Assurez-vous d'avoir Docker installé sur votre ordinateur.
 
-1. Clonez le dépôt du projet en utilisant la commande 
+#### 1. Clonez le dépôt du projet en utilisant la commande 
 
 ```bash
 git clone https://github.com/Nayzow/endpoint-sh-frontend
 ```
 
-2. À la racine du projet, Construisez l'image Docker à partir du fichier Dockerfile en utilisant la commande 
+#### 2. À la racine du projet, Construisez l'image Docker à partir du fichier Dockerfile en utilisant la commande 
 
 ```bash
 docker build -t endpoint-sh-api .
 ```
 
-3. Exécutez le conteneur en utilisant la commande 
+#### 3. Exécutez le conteneur en utilisant la commande 
 
 ```bash
 docker run --name endpoint-sh-api -p 80:80 -d endpoint-sh-api
