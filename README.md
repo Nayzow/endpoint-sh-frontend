@@ -3,15 +3,9 @@
 Frontend de l'API endpoint-sh-api disponible sur mon github : https://github.com/Nayzow/endpoint-sh-api
 L'application web est réalisée avec Angular et le langage TypeScript. Elle comporte plusieurs pages affichant des articles écris par mes soins et des vidéos sur diverses technologies.
 
-## Screenshots
+## Presentation
 
-![img.png](resources%2Fimages%2Fscreenshots%2Fimg.png)
-
-![img_1.png](resources%2Fimages%2Fscreenshots%2Fimg_1.png)
-
-![img_2.png](resources%2Fimages%2Fscreenshots%2Fimg_2.png)
-
-![img_3.png](resources%2Fimages%2Fscreenshots%2Fimg_3.png)
+![presentation.gif](resources%2Fimages%2Fscreenshots%2Fpresentation.gif)
 
 ## Routes de l'application
 
@@ -40,7 +34,7 @@ Assurez-vous d'avoir Node.js et npm installés sur votre ordinateur. Vous pouvez
 #### 1. Clonez le dépôt du projet en utilisant la commande 
 
 ```bash
-git clone https://github.com/Nayzow/DocumentationFrontEnd
+git clone https://github.com/Nayzow/endpoint-sh-frontend
 ```
 
 #### 2. À la racine du projet, installez les dépendances en utilisant la commande 
@@ -68,13 +62,13 @@ git clone https://github.com/Nayzow/endpoint-sh-frontend
 #### 2. À la racine du projet, Construisez l'image Docker à partir du fichier Dockerfile en utilisant la commande 
 
 ```bash
-docker build -t endpoint-sh-api .
+docker build -t endpoint-sh-frontend .
 ```
 
 #### 3. Exécutez le conteneur en utilisant la commande 
 
 ```bash
-docker run --name endpoint-sh-api -p 80:80 -d endpoint-sh-api
+docker run --name endpoint-sh-frontend -p 80:80 -d endpoint-sh-frontend
 ```
 
 L'application devrait maintenant être accessible à l'adresse http://localhost:80 à l'aide d'un serveur nginx.
