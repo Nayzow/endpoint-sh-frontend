@@ -1,6 +1,6 @@
-_# Endpoint.sh Frontend
+# Endpoint.sh Frontend
 
-Frontend de l'API DocumentationApi disponible sur mon github : https://github.com/Nayzow/DocumentationApi
+Frontend de l'API endpoint-sh-api disponible sur mon github : https://github.com/Nayzow/endpoint-sh-api
 L'application web est réalisée avec Angular et le langage TypeScript. Elle comporte plusieurs pages affichant des articles écris par mes soins et des vidéos sur diverses technologies.
 
 ## Screenshots
@@ -50,19 +50,19 @@ Assurez-vous d'avoir Docker installé sur votre ordinateur.
 1. Clonez le dépôt du projet en utilisant la commande 
 
 ```bash
-git clone https://github.com/Nayzow/DocumentationFrontEnd
+git clone https://github.com/Nayzow/endpoint-sh-frontend
 ```
 
 2. À la racine du projet, Construisez l'image Docker à partir du fichier Dockerfile en utilisant la commande 
 
 ```bash
-docker build -t documentation-api .
+docker build -t endpoint-sh-api .
 ```
 
 3. Exécutez le conteneur en utilisant la commande 
 
 ```bash
-docker run --name documentation-api -p 80:80 -d documentation-api
+docker run --name endpoint-sh-api -p 80:80 -d endpoint-sh-api
 ```
 
-L'application devrait maintenant être accessible à l'adresse http://localhost:80/ à l'aide d'un serveur nginx.
+L'application devrait maintenant être accessible à l'adresse http://localhost:80 à l'aide d'un serveur nginx.
