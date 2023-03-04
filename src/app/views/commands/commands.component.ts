@@ -6,6 +6,7 @@ import { ActivatedRoute } from "@angular/router";
 @Component({
   selector: 'app-commands',
   templateUrl: './commands.component.html',
+  styleUrls: ['./commands.component.css']
 })
 export class CommandsComponent implements OnInit {
 

@@ -2,11 +2,8 @@
   <h2 [@textAnimation]="textState">
     "Bienvenue sur mon site de documentation informatique ! Créé par un étudiant développeur pour partager ses
     connaissances et aider les développeurs en herbe. Merci de votre visite !"</h2>
-  <a [@logoAnimation]="logoState" href="/"><img class="logo" src="../../../assets/images/logo.png" alt="logo"></a>
+  <a [@logoAnimation]="logoState" [routerLink]="['/']"><img class="logo" src="../../../assets/images/logo.png" alt="logo"></a>
 </div>
 
-<h2>Articles</h2>
-<app-technologies [technologies]="technologiesWithArticles" technologiesType="articles"></app-technologies>
-
-<h2>Commandes</h2>
-<app-technologies [technologies]="technologiesWithCommands" technologiesType="commands"></app-technologies>
+<app-technologiesWithArticles></app-technologiesWithArticles>
+<app-technologiesWithCommands></app-technologiesWithCommands>

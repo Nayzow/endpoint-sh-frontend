@@ -23,7 +23,14 @@ h3 {
   margin: 25px 25px 25px;
 }
 
-/* Paragraphs */
+h4 {
+  font-size: 0.8rem;
+  font-weight: normal;
+  text-decoration: none;
+  text-shadow: none;
+  margin-bottom: 20px;
+}
+
 p {
   font-size: 1.25rem;
   margin-right: 25%;

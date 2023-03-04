@@ -1,7 +1,9 @@
 import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {ArticlesComponent} from './views/articles/articles.component';
-import {TechnologiesComponent} from './components/technologies/technologies.component';
+import {TechnologiesComponent} from './views/technologies/technologies.component';
+import {TechnologiesWithCommandsComponent} from './views/technologiesWithCommands/technologiesWithCommands.component';
+import {TechnologiesWithArticlesComponent} from './views/technologiesWithArticles/technologiesWithArticles.component';
 import {CommandsComponent} from './views/commands/commands.component';
 import {RouterOutlet} from '@angular/router';
 import {AppRoutingModule} from "./app.routing.module";
@@ -18,6 +20,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     AppComponent,
     ArticlesComponent,
     TechnologiesComponent,
+    TechnologiesWithArticlesComponent,
+    TechnologiesWithCommandsComponent,
     CommandsComponent,
     NavbarComponent,
     FooterComponent,
