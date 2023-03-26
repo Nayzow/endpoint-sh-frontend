@@ -1,11 +1,7 @@
 # Endpoint.sh Frontend
 
-Frontend de l'API endpoint-sh-api disponible sur mon github : https://github.com/Nayzow/endpoint-sh-api
 L'application web est réalisée avec Angular et le langage TypeScript. Elle comporte plusieurs pages affichant des articles écris par mes soins et des vidéos sur diverses technologies.
-
-## Presentation
-
-![presentation.gif](resources%2Fimages%2Fscreenshots%2Fpresentation.gif)
+Elle permet également d'afficher des commandes utiles lors de l'usage de ces technologies.
 
 ## Routes de l'application
 

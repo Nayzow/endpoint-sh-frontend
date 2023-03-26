@@ -1,36 +1,51 @@
-.article-title {
-  margin-bottom: 7%;
+.presentation-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+
 }
 
 .logo-article {
-  width: 250px;
-  height: 220px;
+  margin-top: 20px;
+  width: 400px;
+}
+
+image {
+  margin-left: 70px;
+}
+
+.roadmap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  border: 1px solid black;
 }
 
 .video {
   height: 400px;
   width: 800px;
   display: flex;
-  margin: 20px;
-}
-
-.presentation-article {
-  margin-right: 76%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2%;
+  margin-left: 70px;
+  margin-bottom: 35px;
 }
 
 @media (max-width: 1500px) {
   .presentation-article {
-    width: 30%;
+    width: 40%;
   }
 }
 
 @media (max-width: 1000px) {
   .presentation-article {
-    width: 50%;
+    width: 60%;
+  }
+
+  .roadmap {
+    width: 65%;
   }
 }
 
